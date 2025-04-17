@@ -7,6 +7,10 @@ on:
   repository_dispatch:
     types: [trigger-from-deploy]
 
+permissions:
+  contents: write # For pushing to the repository (push to gh-pages)
+  pages: write # For deploying to GitHub Pages
+
 jobs:
   run-api-tests:
     runs-on: ubuntu-latest
