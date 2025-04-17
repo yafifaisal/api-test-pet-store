@@ -1,0 +1,181 @@
+Timestamp: 2025-04-17 13:23:21 WIB
+Status Code: 200
+Headers: Date=Thu, 17 Apr 2025 06:23:21 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+Body: [
+    {
+        "id": 9223372036854738403,
+        "category": {
+            "id": -88051588,
+            "name": "Duis sit sunt adipisicing"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "qui enim dolore",
+            "cupidatat nisi reprehenderit non"
+        ],
+        "tags": [
+            {
+                "id": -21157775,
+                "name": "sit"
+            },
+            {
+                "id": 53716741,
+                "name": "fugiat consectetur pariatur"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 60,
+        "category": {
+            "id": 671,
+            "name": "Duis sit sunt adipisicing"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "qui enim dolore",
+            "cupidatat nisi reprehenderit non"
+        ],
+        "tags": [
+            {
+                "id": 4025,
+                "name": "sit"
+            },
+            {
+                "id": 671,
+                "name": "fugiat consectetur pariatur"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 34,
+        "category": {
+            "id": 530,
+            "name": "sint in d"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "in qui",
+            "dolore nisi ad enim ut"
+        ],
+        "tags": [
+            {
+                "id": 5046,
+                "name": "anim occaecat sed irure"
+            },
+            {
+                "id": 80014622,
+                "name": "ut enim aute officia"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 65465013,
+        "category": {
+            "id": 27559527,
+            "name": "elit tempor"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "dolor laboris eiusmod",
+            "dolor "
+        ],
+        "tags": [
+            {
+                "id": -62532342,
+                "name": "ullamco esse deserunt"
+            },
+            {
+                "id": -45299952,
+                "name": "ulla"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 11,
+        "category": {
+            "id": 0,
+            "name": "Crona"
+        },
+        "name": "Adella",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 76342797,
+        "category": {
+            "id": -51928180,
+            "name": "consequat deserunt"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "proident consectetur dolor enim",
+            "eiusmod ut ex"
+        ],
+        "tags": [
+            {
+                "id": -79491736,
+                "name": "officia elit esse"
+            },
+            {
+                "id": -95156536,
+                "name": "consequat ullamco"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 28,
+        "category": {
+            "id": 40,
+            "name": "dog"
+        },
+        "name": "Cookie",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 9,
+                "name": "West Highland Terrier"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 7574746,
+        "category": {
+            "id": 1,
+            "name": "Cat"
+        },
+        "name": "Hardy",
+        "photoUrls": [
+            "https://i.pinimg.com/originals/5c/2c/44/5c2c44f16da1caf134c00bc4f9c72ea0.jpg"
+        ],
+        "tags": [
+            {
+                "id": 7805,
+                "name": "Mainecoon"
+            }
+        ],
+        "status": "sold"
+    }
+]

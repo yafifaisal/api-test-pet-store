@@ -1,0 +1,28 @@
+Timestamp: 2025-04-17 13:23:21 WIB
+Status Code: 200
+Headers: Date=Thu, 17 Apr 2025 06:23:20 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+Body: {
+    "id": 1,
+    "category": {
+        "id": 1,
+        "name": "string"
+    },
+    "name": "doggie",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 1,
+            "name": "string"
+        }
+    ],
+    "status": "available"
+}

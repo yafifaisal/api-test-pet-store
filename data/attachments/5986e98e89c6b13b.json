@@ -1,0 +1,76 @@
+Timestamp: 2025-04-17 13:23:21 WIB
+Status Code: 200
+Headers: Date=Thu, 17 Apr 2025 06:23:21 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+Body: [
+    {
+        "id": 16070974,
+        "category": {
+            "id": 58104089,
+            "name": "do fugiat laborum ut"
+        },
+        "name": "dog",
+        "photoUrls": [
+            "Ut nisi Excepteur do",
+            "enim ullamco adipisicing sunt"
+        ],
+        "tags": [
+            {
+                "id": 95465410,
+                "name": "non laborum cupidatat officia"
+            },
+            {
+                "id": 23512356,
+                "name": "esse amet Duis"
+            }
+        ],
+        "status": "pending"
+    },
+    {
+        "id": 760,
+        "category": {
+            "id": 0,
+            "name": "<categoryname>"
+        },
+        "name": "man",
+        "photoUrls": [
+            "woman"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "<tag>"
+            }
+        ],
+        "status": "pending"
+    },
+    {
+        "id": 9223372036854739063,
+        "category": {
+            "id": 16343477,
+            "name": "CHUI"
+        },
+        "name": "Cat",
+        "photoUrls": [
+            "laborum do",
+            "deserunt in eiusmod officia"
+        ],
+        "tags": [
+            {
+                "id": 49056301,
+                "name": "pr"
+            },
+            {
+                "id": 10417678,
+                "name": "velit quis cillum"
+            }
+        ],
+        "status": "pending"
+    }
+]
