@@ -20,7 +20,7 @@ import model.pet.Pet;
 import utils.ApiResponse;
 import utils.RequestBuilder;
 
-@Epic("Pet Store API")
+@Epic("Pet Store API Automation")
 @Feature("Pet Store Tests")
 public class PetStoreTests {
 
