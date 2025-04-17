@@ -1,0 +1,4 @@
+scenario,expectedStatus,status
+valid request with available status,200,available
+valid request with pending status,200,pending
+valid request with pending sold,200,sold

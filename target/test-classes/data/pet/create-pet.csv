@@ -1,0 +1,3 @@
+scenario,expectedStatus,petName
+valid request,200,Cat1
+valid request,200,Cat2

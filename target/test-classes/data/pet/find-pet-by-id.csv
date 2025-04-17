@@ -1,0 +1,2 @@
+scenario,expectedStatus,id
+valid request,200,1
