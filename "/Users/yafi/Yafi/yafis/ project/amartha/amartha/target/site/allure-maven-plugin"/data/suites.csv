@@ -1,7 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","7085","testFindPetById(String, int, int) Scenario: valid request","","Wed Apr 02 19:40:56 WIB 2025","passed","Wed Apr 02 19:41:03 WIB 2025","","tests.PetStoreTests","tests.PetStoreTests","testFindPetById"
-"","1741","testCreatePet(String, int, String) Scenario: valid request","","Wed Apr 02 19:41:03 WIB 2025","passed","Wed Apr 02 19:41:05 WIB 2025","","tests.PetStoreTests","tests.PetStoreTests","testCreatePet"
-"","1513","testFindPetByStatus(String, int, String) Scenario: valid request with pending status","","Wed Apr 02 19:41:09 WIB 2025","passed","Wed Apr 02 19:41:11 WIB 2025","","tests.PetStoreTests","tests.PetStoreTests","testFindPetByStatus"
-"","2498","testFindPetByStatus(String, int, String) Scenario: valid request with available status","","Wed Apr 02 19:41:07 WIB 2025","passed","Wed Apr 02 19:41:09 WIB 2025","","tests.PetStoreTests","tests.PetStoreTests","testFindPetByStatus"
-"","1454","testFindPetByStatus(String, int, String) Scenario: valid request with pending sold","","Wed Apr 02 19:41:11 WIB 2025","passed","Wed Apr 02 19:41:12 WIB 2025","","tests.PetStoreTests","tests.PetStoreTests","testFindPetByStatus"
-"","1540","testCreatePet(String, int, String) Scenario: valid request","","Wed Apr 02 19:41:05 WIB 2025","passed","Wed Apr 02 19:41:07 WIB 2025","","tests.PetStoreTests","tests.PetStoreTests","testCreatePet"
