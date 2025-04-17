@@ -1,0 +1,6 @@
+Timestamp: 2025-04-17 11:59:09 WIB
+Method: GET
+URI: https://petstore.swagger.io/v2/pet/findByStatus
+Headers: {}
+Params: {status: pending}
+Body: null

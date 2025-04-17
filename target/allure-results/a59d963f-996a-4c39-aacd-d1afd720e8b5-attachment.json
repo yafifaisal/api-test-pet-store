@@ -1,0 +1,145 @@
+Timestamp: 2025-04-17 11:59:11 WIB
+Status Code: 200
+Headers: Date=Thu, 17 Apr 2025 04:59:10 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+Body: [
+    {
+        "id": 17,
+        "name": "Special_char_owner_!@#$^&()`.testing",
+        "photoUrls": [
+            "https://petstore3.swagger.io/resources/photos/623389095.jpg"
+        ],
+        "tags": [
+            
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 111111,
+        "category": {
+            "id": 11111,
+            "name": "string"
+        },
+        "name": "puppy",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 111,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 9223372036854738196,
+        "category": {
+            "id": -12451059,
+            "name": "pariatur"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "proident reprehenderit",
+            "aliqua nisi"
+        ],
+        "tags": [
+            {
+                "id": -51074348,
+                "name": "nisi nulla"
+            },
+            {
+                "id": 85662688,
+                "name": "deserunt incididunt laboris"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 76342797,
+        "category": {
+            "id": -51928180,
+            "name": "consequat deserunt"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "proident consectetur dolor enim",
+            "eiusmod ut ex"
+        ],
+        "tags": [
+            {
+                "id": -79491736,
+                "name": "officia elit esse"
+            },
+            {
+                "id": -95156536,
+                "name": "consequat ullamco"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 7574746,
+        "category": {
+            "id": 1,
+            "name": "Cat"
+        },
+        "name": "Hardy",
+        "photoUrls": [
+            "https://i.pinimg.com/originals/5c/2c/44/5c2c44f16da1caf134c00bc4f9c72ea0.jpg"
+        ],
+        "tags": [
+            {
+                "id": 7805,
+                "name": "Mainecoon"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 9223372036854738406,
+        "category": {
+            "id": -51164712,
+            "name": "sint in d"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "in qui",
+            "dolore nisi ad enim ut"
+        ],
+        "tags": [
+            {
+                "id": -3610563,
+                "name": "anim occaecat sed irure"
+            },
+            {
+                "id": 80014622,
+                "name": "ut enim aute officia"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 12,
+        "category": {
+            "id": 0,
+            "name": "dogs"
+        },
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    }
+]

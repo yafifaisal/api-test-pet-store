@@ -1,0 +1,9 @@
+Timestamp: 2025-04-17 11:59:03 WIB
+Method: POST
+URI: https://petstore.swagger.io/v2/pet
+Headers: {}
+Params: {}
+Body: {
+  "name" : "Cat1",
+  "photoUrls" : [ "string" ]
+}

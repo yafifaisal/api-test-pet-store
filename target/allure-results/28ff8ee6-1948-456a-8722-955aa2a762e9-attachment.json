@@ -1,0 +1,11 @@
+
+[API CALL] Create Pet
+[REQUEST]
+Method: POST
+URI: https://petstore.swagger.io/v2/pet
+Headers: {}
+Params: {}
+Body: {
+  "name" : "Cat1",
+  "photoUrls" : [ "string" ]
+}

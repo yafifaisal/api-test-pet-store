@@ -1,0 +1,8 @@
+
+[API CALL] Finds Pet By Status
+[REQUEST]
+Method: GET
+URI: https://petstore.swagger.io/v2/pet/findByStatus
+Headers: {}
+Params: {status: pending}
+Body: null

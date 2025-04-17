@@ -1,0 +1,8 @@
+
+[API CALL] Finds Pet By Id
+[REQUEST]
+Method: GET
+URI: https://petstore.swagger.io/v2/pet/1
+Headers: {}
+Params: {}
+Body: null

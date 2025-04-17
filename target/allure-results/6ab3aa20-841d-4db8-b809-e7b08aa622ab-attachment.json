@@ -1,0 +1,118 @@
+Status Code: 200
+Headers: Date=Thu, 17 Apr 2025 04:39:55 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+Body: [
+    {
+        "id": 9223372016900012018,
+        "category": {
+            "id": 0,
+            "name": "string"
+        },
+        "name": "pett123",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            
+        ],
+        "status": "pending"
+    },
+    {
+        "id": 1250,
+        "category": {
+            "id": 0,
+            "name": "Köpek"
+        },
+        "name": "Aldo",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "Çok hızlı"
+            },
+            {
+                "id": 1,
+                "name": "Çok zeki"
+            }
+        ],
+        "status": "pending"
+    },
+    {
+        "id": 760,
+        "category": {
+            "id": 0,
+            "name": "<categoryname>"
+        },
+        "name": "man",
+        "photoUrls": [
+            "woman"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "<tag>"
+            }
+        ],
+        "status": "pending"
+    },
+    {
+        "id": 100291,
+        "name": "Twixik",
+        "photoUrls": [
+            "./dog.png"
+        ],
+        "tags": [
+            
+        ],
+        "status": "pending"
+    },
+    {
+        "id": 1002,
+        "category": {
+            "id": 2,
+            "name": "Cat"
+        },
+        "name": "Kitty_1744862662909",
+        "photoUrls": [
+            "url2"
+        ],
+        "tags": [
+            {
+                "id": 2,
+                "name": "tag2"
+            }
+        ],
+        "status": "pending"
+    },
+    {
+        "id": 9223372036854738188,
+        "category": {
+            "id": 82641878,
+            "name": "dolor dolore nisi Duis"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "officia in in enim",
+            "eu sed"
+        ],
+        "tags": [
+            {
+                "id": 83694122,
+                "name": "esse sit in aute anim"
+            },
+            {
+                "id": -91142734,
+                "name": "sit deserunt mollit ea"
+            }
+        ],
+        "status": "pending"
+    }
+]

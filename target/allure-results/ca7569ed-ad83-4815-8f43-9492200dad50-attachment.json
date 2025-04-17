@@ -1,0 +1,189 @@
+Status Code: 200
+Headers: Date=Thu, 17 Apr 2025 04:39:57 GMT
+Content-Type=application/json
+Transfer-Encoding=chunked
+Connection=keep-alive
+Access-Control-Allow-Origin=*
+Access-Control-Allow-Methods=GET, POST, DELETE, PUT
+Access-Control-Allow-Headers=Content-Type, api_key, Authorization
+Server=Jetty(9.2.9.v20150224)
+Body: [
+    {
+        "id": 186888,
+        "category": {
+            "id": 552713,
+            "name": "sabre"
+        },
+        "name": "puppy2",
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 678887,
+                "name": "sohan"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 19467,
+        "name": "見響见响仮仏!$%&()*+,-ƄƅƆḞḟṀʶʷʸăĄą",
+        "photoUrls": [
+            "https://petstore3.swagger.io/resources/photos/623389095.jpg"
+        ],
+        "tags": [
+            
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 13,
+        "category": {
+            "id": 0,
+            "name": "cats"
+        },
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 9223372036854738185,
+        "category": {
+            "id": 83089521,
+            "name": "aute"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "esse ea dese",
+            "proident sunt non"
+        ],
+        "tags": [
+            {
+                "id": -7333794,
+                "name": "deserunt reprehenderit"
+            },
+            {
+                "id": -49874740,
+                "name": "consequat aliqua magna officia"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 9223372036854738188,
+        "category": {
+            "id": 2299282,
+            "name": "officia d"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "veniam ad",
+            "consectetur laboris anim"
+        ],
+        "tags": [
+            {
+                "id": 6282852,
+                "name": "aliqua deserunt irure do Excepteur"
+            },
+            {
+                "id": -79344316,
+                "name": "dolor veniam non Ut"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 12,
+        "category": {
+            "id": 0,
+            "name": "dogs"
+        },
+        "photoUrls": [
+            "string"
+        ],
+        "tags": [
+            {
+                "id": 0,
+                "name": "string"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 9223372036854738403,
+        "category": {
+            "id": -88051588,
+            "name": "Duis sit sunt adipisicing"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "qui enim dolore",
+            "cupidatat nisi reprehenderit non"
+        ],
+        "tags": [
+            {
+                "id": -21157775,
+                "name": "sit"
+            },
+            {
+                "id": 53716741,
+                "name": "fugiat consectetur pariatur"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 60,
+        "category": {
+            "id": 671,
+            "name": "Duis sit sunt adipisicing"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "qui enim dolore",
+            "cupidatat nisi reprehenderit non"
+        ],
+        "tags": [
+            {
+                "id": 4025,
+                "name": "sit"
+            },
+            {
+                "id": 671,
+                "name": "fugiat consectetur pariatur"
+            }
+        ],
+        "status": "sold"
+    },
+    {
+        "id": 34,
+        "category": {
+            "id": 530,
+            "name": "sint in d"
+        },
+        "name": "doggie",
+        "photoUrls": [
+            "in qui",
+            "dolore nisi ad enim ut"
+        ],
+        "tags": [
+            {
+                "id": 5046,
+                "name": "anim occaecat sed irure"
+            },
+            {
+                "id": 80014622,
+                "name": "ut enim aute officia"
+            }
+        ],
+        "status": "sold"
+    }
+]

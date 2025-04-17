@@ -2,11 +2,15 @@ package utils;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import io.qameta.allure.Allure;
 import io.qameta.allure.Attachment;
 import io.restassured.response.Response;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.time.ZoneId;
+import java.time.ZonedDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.Map;
 
 public class LogUtil {
@@ -44,15 +48,19 @@ public class LogUtil {
      */
     public static void logRequest(String apiName, String method, String uri, Map<String, Object> headers,
             Map<String, Object> params, Object body) {
+        String timestamp = ZonedDateTime.now(ZoneId.of("Asia/Jakarta"))
+                .format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss z"));
         StringBuilder logBuilder = new StringBuilder();
-        logBuilder.append("\n[API CALL] ").append(apiName).append("\n")
-                .append("[REQUEST]\n")
+        logBuilder.append("Timestamp: ").append(
+                timestamp).append("\n")
                 .append("Method: ").append(method).append("\n")
                 .append("URI: ").append(uri).append("\n")
                 .append("Headers: ").append(formatMap(headers)).append("\n")
                 .append("Params: ").append(formatMap(params)).append("\n")
                 .append("Body: ").append(toJson(body)).append("\n");
         logger.info(logBuilder.toString());
+        Allure.addAttachment("Request", "application/json", logBuilder.toString(), ".json");
+
     }
 
     /**
@@ -62,13 +70,16 @@ public class LogUtil {
      * @param response The response received.
      */
     public static void logResponse(String apiName, Response response) {
+        String timestamp = ZonedDateTime.now(ZoneId.of("Asia/Jakarta"))
+                .format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss z"));
         StringBuilder logBuilder = new StringBuilder();
-        logBuilder.append("\n[API RESPONSE] ").append(apiName).append("\n")
-                .append("[RESPONSE]\n")
+        logBuilder.append("Timestamp: ").append(
+                timestamp).append("\n")
                 .append("Status Code: ").append(response.getStatusCode()).append("\n")
                 .append("Headers: ").append(response.getHeaders()).append("\n")
                 .append("Body: ").append(response.getBody().asPrettyString()).append("\n");
         logger.info(logBuilder.toString());
+        Allure.addAttachment("Response", "application/json", logBuilder.toString(), ".json");
     }
 
     /**

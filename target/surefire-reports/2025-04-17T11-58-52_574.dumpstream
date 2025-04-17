@@ -1,0 +1,15 @@
+# Created at 2025-04-17T11:58:53.406
+SLF4J(W): Class path contains multiple SLF4J providers.
+
+# Created at 2025-04-17T11:58:53.406
+SLF4J(W): Found provider [org.slf4j.simple.SimpleServiceProvider@4d49af10]
+
+# Created at 2025-04-17T11:58:53.406
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@279ad2e3]
+
+# Created at 2025-04-17T11:58:53.406
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+
+# Created at 2025-04-17T11:58:53.413
+SLF4J(I): Actual provider is of type [org.slf4j.simple.SimpleServiceProvider@4d49af10]
+
